@@ -14,5 +14,36 @@
     <title>Frontend Mentor | Componente interativo de preço</title>
 
 <body>
+    <section class="conteudo">
+        <h1 class="conteudo__titulo">Preço simples, baseado no tráfego</h1>
+        <p class="conteudo__paragrafo">Cadastre-se em nosso teste de 30 dias, sem precisar informar seu cartão de crédito.</p>
+    </section>
+    <section class="componente">
+        <div class="componente__valores">
+            <span class="componente__valores-pagina"><span>100K </span>VISUALIZAÇÕES DE PÁGINA</span>
+            <span><span class="componente__valores-preco"><span>R$ </span><span>16.00</span></span><span class="componente__valores-mes">/mês</span></span>
+        </div>
+        <input type="range" id="slider" min="1" max="5" value="3" step="1" class="componente__slider">
+        <div class="componente__plano">
+            <span class="componente__plano-mensal">Mensal</span>
+            <label class="componente__plano-checkbox">
+                <input type="checkbox" id="checkbox">
+                <span class="componente__plano-checkbox-switch"></span>
+            </label>
+            <span class="componente__plano-anual">Anual</span>
+            <span class="componente__plano-desconto">25% de desconto</span>
+        </div>
+        <hr>
+        <div>
+            <div>
+                <ul>
+                    <li>Sites ilimitados</li>
+                    <li>100% da propriedade dos dados</li>
+                    <li>Relatórios de email</li>
+                </ul>
+            </div>
+            <input type="submit" value="Começar meu teste">
+        </div>
+    </section>
 </body>
 </html>
