@@ -2,7 +2,7 @@ body {
     font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 100vh;
     width: 100vw;
@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 5rem;
     height: 15%;
     width: 50%;
     background-image: url('../img/pattern-circles.svg');
@@ -46,9 +47,10 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: hsl(0, 0%, 100%);
-    height: 50%; 
+    margin-bottom: 6rem;
+    height: 40%; 
     width: 30%;
-    padding: 1rem;
+    padding: 10px;
     border-radius: 30px;
     box-shadow: 0px 0px 15px hsl(225, 20%, 60%);
 }
@@ -62,6 +64,7 @@ body {
 
 .componente__valores-preco {
     font-size: 40px;
+    font-weight: 800;
     color: hsl(227, 35%, 25%);
 }
 
@@ -142,10 +145,59 @@ body {
 }
 
 .componente__plano-desconto {
-    padding: 4px;
+    padding: 3px;
+    padding-top: 4.5px;
+    font-size: 10px;
     background-color: hsl(14, 92%, 95%);
     border-radius: 20px;
     color: hsl(13, 52%, 58%);
+}
+
+.border {
+    border-top: 1px solid #FDFDFD;
+    width: 30vw;
+    margin: 0;
+    padding: 0;
+
+}
+.componente__rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.componente__rodape-beneficios {
+    font-size: 13px;
+    color: hsl(225, 20%, 60%);
+}
+
+.componente__rodape-beneficios-sites, .componente__rodape-beneficios-dados, .componente__rodape-beneficios-email {
+    margin-top: 10px;
+    padding-left: 35px;
+    font-weight: 600;
+    background-image: url('../img/icon-check.svg');
+    background-repeat: no-repeat;
+    background-position:left;
+    
+}
+
+.componente__rodape-botao {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(227, 35%, 25%);
+    color: hsl(226, 100%, 87%);
+    border: none;
+    border-radius: 40px;
+    width: 35%;
+    height: 70%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.componente__rodape-botao:hover {
+    background-color: hsl(227, 28%, 37%);
+    color: hsl(226, 100%, 96%);
 }
 
 
