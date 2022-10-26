@@ -1,0 +1,127 @@
+@media screen and (max-width: 1600px){
+    .componente {
+        
+        height: 45%; 
+        width: 45%;
+        
+    }
+    .border {
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .conteudo {
+        width: 60%;
+    }
+    
+    .componente {
+        
+        height: 45%; 
+        width: 55%;
+        
+    }
+    .conteudo__titulo {
+        font-size: 23px;
+    }
+    .border {
+        width: 55vw;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .componente {
+        height: 50%; 
+    }
+    .conteudo__paragrafo {
+        font-size: 13px;
+    }
+
+    .componente__valores {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 25%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .conteudo {
+        width: 70%;
+    }
+    
+    .componente {
+        height: 60%; 
+        margin-bottom: 4rem;
+    }
+
+    .conteudo__titulo {
+        font-size: 19px;
+    }
+
+    .conteudo__paragrafo {
+        font-size: 12px;
+    }
+
+    .componente__valores {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 25%;
+    }
+    .componente__valores-pagina {
+        text-align: center;
+    }
+
+    .componente__rodape {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30%;      
+    }
+
+    .componente__plano-desconto{
+        text-align: center;
+        padding:1.5px;
+        padding-top: 3px;;
+    }
+
+    .componente__rodape-botao {
+        width: 50%;
+        height: 25%;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .conteudo {
+        width: 70%;
+    }
+    
+    .componente {
+        height: 70%; 
+        width: 65%;
+        margin-bottom: 2rem;
+    }
+
+    .conteudo__titulo {
+        font-size: 19px;
+    }
+
+    .conteudo__paragrafo {
+        font-size: 12px;
+    }
+
+    .componente__valores {
+        height: 18%;
+    }
+
+    .componente__rodape {
+        height: 25%;      
+    }
+    .componente__rodape-botao {
+        width: 75%;
+        height: 25%;
+    }
+    .border {
+        width: 65vw;
+    }
+}
