@@ -7,7 +7,7 @@ body {
     height: 100vh;
     width: 100vw;
     margin: auto;
-    background-image: url('../img/bg-pattern.svg');
+    background-image: url('../../assets/img/bg-pattern.svg');
     background-repeat: no-repeat;
     background-size: 100vw 50vh;
     background-color: hsl(230, 100%, 99%);
@@ -23,7 +23,7 @@ body {
     margin-top: 5rem;
     height: 15%;
     width: 50%;
-    background-image: url('../img/pattern-circles.svg');
+    background-image: url('../../assets/img/pattern-circles.svg');
     background-repeat: no-repeat;
     background-position: center;
 
@@ -88,7 +88,7 @@ body {
     -webkit-appearance: none;
     width: 35px;
     height: 35px;
-    background-image: url('../img/icon-slider.svg');
+    background-image: url('../../assets/img/icon-slider.svg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     border-radius: 50%;
@@ -179,7 +179,7 @@ body {
     margin-top: 10px;
     padding-left: 35px;
     font-weight: 600;
-    background-image: url('../img/icon-check.svg');
+    background-image: url('../../assets/img/icon-check.svg');
     background-repeat: no-repeat;
     background-position:left;
     
